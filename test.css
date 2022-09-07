@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: #18191a;
+    overflow: hidden;
+   }
+   nav{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+nav .wrapper{
+    position: absolute;
+    top: 65px;
+    display: flex;
+    width: 400px;
+    background: #242529;
+    border-radius: 5px;
+}
+nav .wrapper ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 8px;
+
+}
+nav .drop-btn{
+    width: 400px;
+    background: #242529;
+    color: #b0b3b8;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .drop-btn span{
+   float: right;
+   line-height: 50px;
+   font-size: 28px;
+   cursor: pointer;
+}
+nav .wrapper ul{
+    list-style: none;
+   width: 400px;
+   padding: 10px;
+}
+nav .wrapper ul li{
+    line-height: 55px;
+}
+
+nav .wrapper ul li:hover a{
+    background: #3a3b3c;
+    
+}
+.wrapper ul li a .icon{
+  height:40px;
+  width:40px;
+  margin-right: 13px;  
+  background: #ffffff1a;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.wrapper ul li a i{
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+    pointer-events: none;
+}
+
+
+
+
